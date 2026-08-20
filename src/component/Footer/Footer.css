@@ -1,6 +1,5 @@
-/* FOOTER SECTION */
 .footer {
-  background-color: #323946; /* To'q kulrang fon */
+  background-color: #323946;
   padding: 24px 0;
   color: #ffffff;
 }
@@ -14,14 +13,12 @@
   justify-content: space-between;
 }
 
-/* COPYRIGHT TEXT */
 .footer-text {
   font-size: 14px;
   color: #ffffff;
   letter-spacing: 0.3px;
 }
 
-/* SCROLL TO TOP BUTTON */
 .btn-top {
   width: 40px;
   height: 40px;
@@ -47,7 +44,6 @@
   transform: translateY(-3px);
 }
 
-/* RESPONSIVE DESIGN */
 @media (max-width: 600px) {
   .footer-container {
     flex-direction: column;
