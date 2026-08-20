@@ -1,0 +1,57 @@
+/* FOOTER SECTION */
+.footer {
+  background-color: #323946; /* To'q kulrang fon */
+  padding: 24px 0;
+  color: #ffffff;
+}
+
+.footer-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* COPYRIGHT TEXT */
+.footer-text {
+  font-size: 14px;
+  color: #ffffff;
+  letter-spacing: 0.3px;
+}
+
+/* SCROLL TO TOP BUTTON */
+.btn-top {
+  width: 40px;
+  height: 40px;
+  background-color: #00eeff;
+  border: none;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  box-shadow: 0 0 10px rgba(0, 238, 255, 0.4);
+  transition: all 0.3s ease;
+}
+
+.btn-top svg {
+  width: 20px;
+  height: 20px;
+  stroke: #1f242d;
+}
+
+.btn-top:hover {
+  box-shadow: 0 0 20px rgba(0, 238, 255, 0.8);
+  transform: translateY(-3px);
+}
+
+/* RESPONSIVE DESIGN */
+@media (max-width: 600px) {
+  .footer-container {
+    flex-direction: column;
+    gap: 16px;
+    text-align: center;
+  }
+}
