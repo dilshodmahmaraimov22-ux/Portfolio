@@ -10,7 +10,6 @@
   padding: 0 40px;
 }
 
-/* MAIN TITLE */
 .projects-main-title {
   text-align: center;
   font-size: 38px;
@@ -19,17 +18,15 @@
 }
 
 .projects-main-title .highlight-text {
-  color: #00eeff; /* Feruza rang */
+  color: #00eeff;
 }
 
-/* GRID LAYOUT (3 x 2) */
 .projects-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 30px;
 }
 
-/* PROJECT CARD */
 .project-card {
   position: relative;
   border-radius: 20px;
@@ -48,7 +45,6 @@
   transition: transform 0.5s ease;
 }
 
-/* HOVER EFFECTS */
 .project-card:hover {
   transform: translateY(-6px);
   box-shadow: 0 0 25px rgba(0, 238, 255, 0.3);
@@ -58,7 +54,6 @@
   transform: scale(1.08);
 }
 
-/* RESPONSIVE DESIGN */
 @media (max-width: 992px) {
   .projects-grid {
     grid-template-columns: repeat(2, 1fr);
