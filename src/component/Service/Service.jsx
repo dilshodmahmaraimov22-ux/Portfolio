@@ -11,8 +11,6 @@ function Service() {
         </h2>
 
         <div className="services-grid">
-          
-          /* CARD 1: WEB DEVELOPMENT */
           <div className="service-card">
             <div className="service-icon">
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
@@ -27,7 +25,6 @@ function Service() {
             <a href="#" className="btn-read-more">Read More</a>
           </div>
 
-          /* CARD 2: GRAPHIC DESIGN */
           <div className="service-card">
             <div className="service-icon">
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
@@ -42,7 +39,6 @@ function Service() {
             <a href="#" className="btn-read-more">Read More</a>
           </div>
 
-          /* CARD 3: DIGITAL MARKETING */
           <div className="service-card">
             <div className="service-icon">
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
